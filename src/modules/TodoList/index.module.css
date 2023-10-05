@@ -1,0 +1,29 @@
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form {
+    margin-bottom: 30px;
+}
+
+.label {}
+
+.input_todo {
+    min-height: 40px;
+    width: 650px;
+}
+
+.form_submit {
+    cursor: pointer;
+    background: lightgreen;
+    border: none;
+    min-height: 40px;
+    transition: background 200ms linear;
+}
+
+.form_submit:hover {
+    background: rgb(106, 218, 106);
+}
